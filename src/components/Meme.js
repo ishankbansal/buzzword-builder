@@ -8,7 +8,7 @@ export default function Meme(){
     return(
         <main>
             <div className="form">
-                <input 
+                <input
                     type="text" 
                     className="form--input" 
                     placeholder="Top text"
