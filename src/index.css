@@ -33,10 +33,10 @@ main{
   margin-right: auto;
 }
 
-/* .header--project{
+.header--project{
   font-size: 1rem;
   font-weight: 500;
-} */
+}
 
 .form{
   display: grid;
@@ -118,31 +118,6 @@ main{
     margin-top: 20px;
 }
 
-/* .footer{
-  text-align: center;
-  background: #2E0249;
-  color: white;
-  padding: 0.75em 0 0.75em 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-size: 1.2em;
-} */
-
-.footer{
-  display : flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #2b1549;
-  margin : 0;
-  z-index: 99;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: white;
-}
-
 @media screen and (max-width: 768px){
   .form{
     display: grid;
@@ -161,5 +136,9 @@ main{
 
   .meme--text{
     font-size: 1.25em;
+  }
+
+  .header--project{
+    display: none;
   }
 }

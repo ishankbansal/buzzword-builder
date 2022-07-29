@@ -1,4 +1,3 @@
-import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Meme from "./components/Meme"
 
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <Header/>
       <Meme/>
-      <Footer/>
     </div>
   );
 }
