@@ -118,7 +118,7 @@ main{
     margin-top: 20px;
 }
 
-.footer{
+/* .footer{
   text-align: center;
   background: #2E0249;
   color: white;
@@ -127,6 +127,20 @@ main{
   bottom: 0;
   width: 100%;
   font-size: 1.2em;
+} */
+
+.footer{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #2b1549;
+  margin : 0;
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
 }
 
 @media screen and (max-width: 768px){
